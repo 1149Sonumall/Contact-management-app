@@ -19,7 +19,7 @@ function Create() {
     return (
         <div className='d-flex w-100 vh-100 justify-content-center align-items-center'>
             <div className='w-50 border bg-secondary text-white p-5'>
-                <h3>Add a new contact</h3>
+                <h3>Add an new contact</h3>
                 <form on onSubmit={handlesumit}>
                     <div>
                         <label htmlFor='name'>Name:</label>
